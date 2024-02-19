@@ -113,7 +113,7 @@
 }
 
 .manhwa-details {
-  position: absolute;
+  position: relative;
   top: 10px;
   left: 10px;
   color: rgb(0, 0, 0);
@@ -201,4 +201,22 @@
   border-left: 1px solid grey;
   transform: translateY(-50%);
   left: -20px;
+}
+
+.choice {
+  color: #01cc62;
+}
+.best {
+  color: #f11a25;
+}
+.golden {
+  color: #ffd700;
+}
+.condition {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.condition h3 {
+  margin: 0;
 }
